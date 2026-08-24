@@ -180,7 +180,7 @@ Score  : 90.5%
 | Category | Result |
 |---|---:|
 | Retrieval | 100% |
-| Multi-source Grounding | 50% |
+| Multi-Source Grounding | 50% |
 | Conversation | 100% |
 | Groundedness | 75% |
 | Tool Use | 100% |
