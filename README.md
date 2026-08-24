@@ -1,6 +1,4 @@
-Yes. This version follows the **10 README requirements from the company's assignment**, but keeps the content concise so the reviewer can scan it quickly. GitHub also recommends using the README to communicate what the project does and how to run it, rather than turning it into exhaustive documentation. ([GitHub Docs][1])
 
-**Replace your entire `README.md` with this:**
 
 ````markdown
 # Aster & Row — Reliable RAG Support Agent
