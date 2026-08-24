@@ -170,9 +170,9 @@ The suite covers:
 ### Final Evaluation
 
 ```text
-Passed : 21/21
-Failed : 0/21
-Score  : 100%
+Passed : 19/21
+Failed : 2/21
+Score  : 90.5%
 ```
 
 ### Category Results
@@ -180,9 +180,9 @@ Score  : 100%
 | Category         | Result |
 | ---------------- | -----: |
 | Retrieval        |   100% |
-| Multi-turn       |   100% |
+| Multi-turn       |   50% |
 | Tool Use         |   100% |
-| Tool Reliability |   100% |
+| Tool Reliability |   75% |
 | Privacy          |   100% |
 | Groundedness     |   100% |
 | Prompt Security  |   100% |
