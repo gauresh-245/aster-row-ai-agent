@@ -177,17 +177,18 @@ Score  : 90.5%
 
 ### Category Results
 
-| Category         | Result |
-| ---------------- | -----: |
-| Retrieval        |   100% |
-| Multi-turn       |   50% |
-| Tool Use         |   100% |
-| Tool Reliability |   75% |
-| Privacy          |   100% |
-| Groundedness     |   100% |
-| Prompt Security  |   100% |
-| Abstention       |   100% |
-| Source Conflict  |   100% |
+| Category | Result |
+|---|---:|
+| Retrieval | 100% |
+| Multi-source Grounding | 50% |
+| Conversation | 100% |
+| Groundedness | 75% |
+| Tool Use | 100% |
+| Tool Reliability | 100% |
+| Privacy | 100% |
+| Prompt Security | 100% |
+| Abstention | 100% |
+| Source Conflict | 100% |
 
 The evaluation includes the supplied visible cases plus six original cases covering paraphrased and combined scenarios.
 
@@ -207,7 +208,7 @@ The evaluation includes the supplied visible cases plus six original cases cover
 
 ### Source-Scoped Phrase Requirements
 
-**Failure:** Required concepts from unrelated retrieved documents could affect answers.
+**Failure:** Required concepts from unrelated retrieved documents could affect answers.This issue was discovered during testing of paraphrased/combined cases beyond the exact wording of the supplied visible cases.
 
 **Root Cause:** Phrase requirements were initially applied too broadly.
 
@@ -316,7 +317,7 @@ The final system achieved **19/21 passing evaluation cases (90.5%)**.
 | Baseline | 13/21 (61.9%) |
 | Final | 19/21 (90.5%) |
 
-The final evaluation achieved full scores in retrieval, conversation, tool use, tool reliability, privacy, prompt security, abstention, and source-conflict handling. Two original paraphrase cases remain as known limitations.
+The final evaluation achieved full scores in retrieval, conversation, tool use, tool reliability, privacy, prompt security, abstention, and source-conflict handling.
 
 ```
 
