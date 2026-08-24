@@ -271,7 +271,15 @@ The demonstration shows:
 4. Correct refusal / human handoff
 5. Evaluation suite running
 
-<!-- Add your 2–4 minute GIF/video here -->
+
+
+## 2 minute video
+
+https://github.com/user-attachments/assets/a0ffcb3d-f083-4b7e-ba10-6d5d4b657014
+
+
+
+
 
 ---
 
