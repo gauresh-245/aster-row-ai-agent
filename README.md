@@ -19,7 +19,7 @@ The agent uses RAG over the supplied knowledge base, a controlled order-lookup t
 ### Install
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/gauresh-245/aster-row-ai-agent.git
 cd ai-agent
 
 python -m venv .venv
@@ -307,7 +307,16 @@ python evaluation/run_evaluation.py
 
 ## Final Result
 
-The final system achieved **21/21 passing evaluation cases (100%)** across the implemented reliability, retrieval, tool-use, privacy, multi-turn, security, and abstention scenarios.
+The final system achieved **19/21 passing evaluation cases (90.5%)**.
+
+### Evaluation Results
+
+| Stage | Result |
+|---|---:|
+| Baseline | 13/21 (61.9%) |
+| Final | 19/21 (90.5%) |
+
+The final evaluation achieved full scores in retrieval, conversation, tool use, tool reliability, privacy, prompt security, abstention, and source-conflict handling. Two original paraphrase cases remain as known limitations.
 
 ```
 
